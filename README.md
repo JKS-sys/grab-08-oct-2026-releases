@@ -10,7 +10,7 @@
 **Download video, audio and subtitles — up to 24K, with the audio always merged.**
 **Transcribe on your own machine. Ask AI about what was said.**
 
-By **Jagadeesh Kumar S** · version **1.0.2** · [ipconfig.co.network](https://ipconfig.co.network)
+By **Jagadeesh Kumar S** · version **1.0.3** · [ipconfig.co.network](https://ipconfig.co.network)
 
 <img src="assets/icon-light.png" alt="Light icon" width="64"> &nbsp; <img src="assets/icon-dark.png" alt="Dark icon" width="64">
 
@@ -22,14 +22,14 @@ By **Jagadeesh Kumar S** · version **1.0.2** · [ipconfig.co.network](https://i
 
 | Platform | Download | Notes |
 |---|---|---|
-| 🍎 **macOS** Apple Silicon | [Grab_1.0.2_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_aarch64.dmg) | M1 and later |
-| 🍎 **macOS** Intel | [Grab_1.0.2_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_x64.dmg) | macOS 10.15+ |
-| 🪟 **Windows** x64 | [Grab_1.0.2_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_x64-setup.exe) | Windows 10 and 11 |
-| 🪟 **Windows** ARM64 | [Grab_1.0.2_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_arm64-setup.exe) | Snapdragon laptops |
-| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_amd64.AppImage) | Ubuntu, Debian, Mint… |
-| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_arm64.deb) | Raspberry Pi 5, ARM laptops |
+| 🍎 **macOS** Apple Silicon | [Grab_1.0.3_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_aarch64.dmg) | M1 and later |
+| 🍎 **macOS** Intel | [Grab_1.0.3_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_x64.dmg) | macOS 10.15+ |
+| 🪟 **Windows** x64 | [Grab_1.0.3_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_x64-setup.exe) | Windows 10 and 11 |
+| 🪟 **Windows** ARM64 | [Grab_1.0.3_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_arm64-setup.exe) | Snapdragon laptops |
+| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_amd64.AppImage) | Ubuntu, Debian, Mint… |
+| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_arm64.deb) | Raspberry Pi 5, ARM laptops |
 | 💻 **ChromeOS** | the Linux **.deb** | Settings → Developers → Linux, then open the file |
-| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_freebsd_amd64.tar.gz) | unpack, run `./grab` |
+| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_freebsd_amd64.tar.gz) | unpack, run `./grab` |
 
 **macOS first launch:** drag Grab to Applications, then run once in Terminal:
 ```sh
@@ -49,7 +49,7 @@ The logo draws itself inside two orbiting rings, sparks fly, the tagline types o
 
 <img src="assets/demo-download.webp" alt="Paste, pick 24K, download — animated demo" width="900">
 
-Paste a link, choose a quality cap (here 24K), press Download. Jobs queue, progress with a glowing head, merge the audio and land with a green tick.
+Paste a link, choose a quality cap (here 24K), press Download. Jobs queue, progress with a glowing head, merge the audio and land with a green tick — then Open it or Show it in its folder.
 
 ### 3. Grab AI
 
@@ -97,6 +97,15 @@ Paste one link or a hundred. Pick the format and a quality cap from 480p to 24K;
 </picture>
 
 Every subtitle language a video has: the creator's own, auto-generated and auto-translated, each labelled. Tick the ones you want and get just those files as SRT, VTT or ASS.
+
+### Open what you downloaded
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/finished-dark.webp">
+  <img src="assets/finished-light.webp" alt="Open what you downloaded" width="900">
+</picture>
+
+Every finished download has Open and Show in folder, the full path, a filter, search, Copy link and Retry failed. Drop links anywhere on the window to queue them; ⌘O opens the download folder.
 
 ### More options
 
@@ -161,6 +170,24 @@ Every option in plain words, each field in its own colour, and the yt-dlp comman
 
 Every sound is synthesised as it plays, in ten packs, with no audio files in the app. Each section has its own note.
 
+### Privacy and permissions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/settings-privacy-dark.webp">
+  <img src="assets/settings-privacy-light.webp" alt="Privacy and permissions" width="900">
+</picture>
+
+Every permission and choice Grab asks about, in one place, remembered once answered. Crash reports kept on this computer: view, add, edit, delete, send, export as .md or .txt.
+
+### After a crash
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/crash-review-dark.webp">
+  <img src="assets/crash-review-light.webp" alt="After a crash" width="900">
+</picture>
+
+Grab shows what happened and asks once: Send, Always send, Not now or Never ask. Your home folder is replaced with ~ before anything leaves the computer.
+
 ### Shortcuts
 
 <picture>
@@ -178,6 +205,15 @@ Press ? anywhere for every keyboard shortcut, each in its own colour.
 </picture>
 
 ₹20 a month or ₹220 a year through Razorpay: UPI, cards, net banking. Grab unlocks itself the moment payment clears. Activation and lifetime codes work too.
+
+### Crash reports in the Owner Panel
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/owner-crashes-dark.webp">
+  <img src="assets/owner-crashes-light.webp" alt="Crash reports in the Owner Panel" width="900">
+</picture>
+
+Every report users chose to send: read, mark seen, fixed or ignored, add notes, create, delete one, many or all, and export as Markdown or text.
 
 ### Owner Panel
 
