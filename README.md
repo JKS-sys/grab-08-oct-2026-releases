@@ -10,7 +10,7 @@
 **Download video, audio and subtitles — up to 24K, with the audio always merged.**
 **Transcribe on your own machine. Ask AI about what was said.**
 
-By **Jagadeesh Kumar S** · version **1.0.3** · [ipconfig.co.network](https://ipconfig.co.network)
+By **Jagadeesh Kumar S** · version **1.0.4** · [ipconfig.co.network](https://ipconfig.co.network)
 
 <img src="assets/icon-light.png" alt="Light icon" width="64"> &nbsp; <img src="assets/icon-dark.png" alt="Dark icon" width="64">
 
@@ -22,14 +22,14 @@ By **Jagadeesh Kumar S** · version **1.0.3** · [ipconfig.co.network](https://i
 
 | Platform | Download | Notes |
 |---|---|---|
-| 🍎 **macOS** Apple Silicon | [Grab_1.0.3_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_aarch64.dmg) | M1 and later |
-| 🍎 **macOS** Intel | [Grab_1.0.3_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_x64.dmg) | macOS 10.15+ |
-| 🪟 **Windows** x64 | [Grab_1.0.3_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_x64-setup.exe) | Windows 10 and 11 |
-| 🪟 **Windows** ARM64 | [Grab_1.0.3_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_arm64-setup.exe) | Snapdragon laptops |
-| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_amd64.AppImage) | Ubuntu, Debian, Mint… |
-| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_arm64.deb) | Raspberry Pi 5, ARM laptops |
+| 🍎 **macOS** Apple Silicon | [Grab_1.0.4_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_aarch64.dmg) | M1 and later |
+| 🍎 **macOS** Intel | [Grab_1.0.4_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_x64.dmg) | macOS 10.15+ |
+| 🪟 **Windows** x64 | [Grab_1.0.4_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_x64-setup.exe) | Windows 10 and 11 |
+| 🪟 **Windows** ARM64 | [Grab_1.0.4_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_arm64-setup.exe) | Snapdragon laptops |
+| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_amd64.AppImage) | Ubuntu, Debian, Mint… |
+| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_arm64.deb) | Raspberry Pi 5, ARM laptops |
 | 💻 **ChromeOS** | the Linux **.deb** | Settings → Developers → Linux, then open the file |
-| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.3_freebsd_amd64.tar.gz) | unpack, run `./grab` |
+| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_freebsd_amd64.tar.gz) | unpack, run `./grab` |
 
 **macOS first launch:** drag Grab to Applications, then run once in Terminal:
 ```sh
@@ -79,6 +79,15 @@ Revenue at a glance, then mint 25 activation codes in one go and manage Razorpay
 </picture>
 
 The logo draws itself, sparks fly, the tagline types out and "By Jagadeesh Kumar S" springs in letter by letter, with its own sound. Any key skips it.
+
+### About Grab
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/about-dialog-dark.webp">
+  <img src="assets/about-dialog-light.webp" alt="About Grab" width="900">
+</picture>
+
+From the menu bar on macOS (Grab → About Grab): the app, its version and its creator, Jagadeesh Kumar S. Every action also has a menu item with its shortcut.
 
 ### Downloads
 
@@ -141,7 +150,7 @@ Ollama, LM Studio, Jan, llama.cpp, GPT4All, KoboldCpp, vLLM, Msty and AnythingLL
   <img src="assets/library-light.webp" alt="Library" width="900">
 </picture>
 
-Everything you downloaded, transcribed on your own machine with whisper.cpp, searchable by what was said. Summaries, chapters and quotes with AI.
+Every video you downloaded, each with Open and Show in folder, its file type in colour, transcribed on your own machine with whisper.cpp, searchable by what was said. Summaries, chapters and quotes with AI.
 
 ### Subscriptions
 
