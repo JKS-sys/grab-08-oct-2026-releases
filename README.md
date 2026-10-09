@@ -10,7 +10,7 @@
 **Download video, audio and subtitles — up to 24K, with the audio always merged.**
 **Transcribe on your own machine. Ask AI about what was said.**
 
-By **Jagadeesh Kumar S** · version **1.0.1** · [ipconfig.co.network](https://ipconfig.co.network)
+By **Jagadeesh Kumar S** · version **1.0.2** · [ipconfig.co.network](https://ipconfig.co.network)
 
 <img src="assets/icon-light.png" alt="Light icon" width="64"> &nbsp; <img src="assets/icon-dark.png" alt="Dark icon" width="64">
 
@@ -22,20 +22,52 @@ By **Jagadeesh Kumar S** · version **1.0.1** · [ipconfig.co.network](https://i
 
 | Platform | Download | Notes |
 |---|---|---|
-| 🍎 **macOS** Apple Silicon | [Grab_1.0.1_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_aarch64.dmg) | M1 and later |
-| 🍎 **macOS** Intel | [Grab_1.0.1_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_x64.dmg) | macOS 10.15+ |
-| 🪟 **Windows** x64 | [Grab_1.0.1_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_x64-setup.exe) | Windows 10 and 11 |
-| 🪟 **Windows** ARM64 | [Grab_1.0.1_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_arm64-setup.exe) | Snapdragon laptops |
-| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_amd64.AppImage) | Ubuntu, Debian, Mint… |
-| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_arm64.deb) | Raspberry Pi 5, ARM laptops |
+| 🍎 **macOS** Apple Silicon | [Grab_1.0.2_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_aarch64.dmg) | M1 and later |
+| 🍎 **macOS** Intel | [Grab_1.0.2_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_x64.dmg) | macOS 10.15+ |
+| 🪟 **Windows** x64 | [Grab_1.0.2_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_x64-setup.exe) | Windows 10 and 11 |
+| 🪟 **Windows** ARM64 | [Grab_1.0.2_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_arm64-setup.exe) | Snapdragon laptops |
+| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_amd64.AppImage) | Ubuntu, Debian, Mint… |
+| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_arm64.deb) | Raspberry Pi 5, ARM laptops |
 | 💻 **ChromeOS** | the Linux **.deb** | Settings → Developers → Linux, then open the file |
-| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.1_freebsd_amd64.tar.gz) | unpack, run `./grab` |
+| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.2_freebsd_amd64.tar.gz) | unpack, run `./grab` |
 
 **macOS first launch:** drag Grab to Applications, then run once in Terminal:
 ```sh
 xattr -cr /Applications/Grab.app
 ```
 Grab updates itself after that, on every platform except FreeBSD.
+
+## See it in motion
+
+### 1. Start-up
+
+<img src="assets/demo-start.webp" alt="Start-up — animated demo" width="900">
+
+The logo draws itself inside two orbiting rings, sparks fly, the tagline types out and "By Jagadeesh Kumar S" springs in letter by letter.
+
+### 2. Paste, pick 24K, download
+
+<img src="assets/demo-download.webp" alt="Paste, pick 24K, download — animated demo" width="900">
+
+Paste a link, choose a quality cap (here 24K), press Download. Jobs queue, progress with a glowing head, merge the audio and land with a green tick.
+
+### 3. Grab AI
+
+<img src="assets/demo-ai.webp" alt="Grab AI — animated demo" width="900">
+
+One click asks the free built-in AI; the answer streams in with coloured code. The Models tab finds every local AI on this computer and pulls new ones.
+
+### 4. A tour in colour
+
+<img src="assets/demo-tour.webp" alt="A tour in colour — animated demo" width="900">
+
+Each section has its own colour and its own note. The theme changes with a circle that grows from the click. Press ? for every shortcut.
+
+### 5. Owner Panel
+
+<img src="assets/demo-owner.webp" alt="Owner Panel — animated demo" width="900">
+
+Revenue at a glance, then mint 25 activation codes in one go and manage Razorpay subscriptions — in its own window, on the owner's Mac only.
 
 ## What it looks like
 
