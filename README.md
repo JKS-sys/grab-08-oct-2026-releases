@@ -10,7 +10,7 @@
 **Download video, audio and subtitles — up to 24K, with the audio always merged.**
 **Transcribe on your own machine. Ask AI about what was said.**
 
-By **Jagadeesh Kumar S** · version **1.0.4** · [ipconfig.co.network](https://ipconfig.co.network)
+By **Jagadeesh Kumar S** · version **1.0.5** · [ipconfig.co.network](https://ipconfig.co.network)
 
 <img src="assets/icon-light.png" alt="Light icon" width="64"> &nbsp; <img src="assets/icon-dark.png" alt="Dark icon" width="64">
 
@@ -22,14 +22,14 @@ By **Jagadeesh Kumar S** · version **1.0.4** · [ipconfig.co.network](https://i
 
 | Platform | Download | Notes |
 |---|---|---|
-| 🍎 **macOS** Apple Silicon | [Grab_1.0.4_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_aarch64.dmg) | M1 and later |
-| 🍎 **macOS** Intel | [Grab_1.0.4_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_x64.dmg) | macOS 10.15+ |
-| 🪟 **Windows** x64 | [Grab_1.0.4_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_x64-setup.exe) | Windows 10 and 11 |
-| 🪟 **Windows** ARM64 | [Grab_1.0.4_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_arm64-setup.exe) | Snapdragon laptops |
-| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_amd64.AppImage) | Ubuntu, Debian, Mint… |
-| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_arm64.deb) | Raspberry Pi 5, ARM laptops |
+| 🍎 **macOS** Apple Silicon | [Grab_1.0.5_aarch64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_aarch64.dmg) | M1 and later |
+| 🍎 **macOS** Intel | [Grab_1.0.5_x64.dmg](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_x64.dmg) | macOS 10.15+ |
+| 🪟 **Windows** x64 | [Grab_1.0.5_x64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_x64-setup.exe) | Windows 10 and 11 |
+| 🪟 **Windows** ARM64 | [Grab_1.0.5_arm64-setup.exe](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_arm64-setup.exe) | Snapdragon laptops |
+| 🐧 **Linux** x64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_amd64.deb) · [.AppImage](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_amd64.AppImage) | Ubuntu, Debian, Mint… |
+| 🐧 **Linux** ARM64 | [.deb](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_arm64.deb) | Raspberry Pi 5, ARM laptops |
 | 💻 **ChromeOS** | the Linux **.deb** | Settings → Developers → Linux, then open the file |
-| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.4_freebsd_amd64.tar.gz) | unpack, run `./grab` |
+| 😈 **FreeBSD** x64 | [tarball](https://github.com/JKS-sys/grab-08-oct-2026-releases/releases/latest/download/Grab_1.0.5_freebsd_amd64.tar.gz) | unpack, run `./grab` |
 
 **macOS first launch:** drag Grab to Applications, then run once in Terminal:
 ```sh
