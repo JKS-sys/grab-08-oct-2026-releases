@@ -12,6 +12,8 @@
 
 By **Jagadeesh Kumar S** · version **1.0.5** · [ipconfig.co.network](https://ipconfig.co.network)
 
+<p align="center"><b>If Grab helps you, please ⭐ star this repository — it helps other people find it.</b></p>
+
 <img src="assets/icon-light.png" alt="Light icon" width="64"> &nbsp; <img src="assets/icon-dark.png" alt="Dark icon" width="64">
 
 <sub>The app icon, light (default) and dark.</sub>
@@ -246,3 +248,5 @@ Cookies from your browser only reach what your own account can already watch.
 ---
 
 <div align="center"><sub>Made by Jagadeesh Kumar S · <a href="mailto:JKS.sys@icloud.com">JKS.sys@icloud.com</a> · <a href="https://www.youtube.com/@JKS-sys">youtube.com/@JKS-sys</a></sub></div>
+
+<p align="center"><b>If Grab helps you, please ⭐ star this repository — it helps other people find it.</b></p>
